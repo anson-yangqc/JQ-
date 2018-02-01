@@ -8,7 +8,10 @@
 	<div style='width:50px;height:50px;border:1px solid #000;'>abc</div>
 	<p style=''>p</p>
 
-
+	<script type="text/javascript">
+		$.extend(true, opts, options);//深拷贝 后面覆盖前面 最终合并到opts对象 
+	</script>
+	
 	<script type="text/javascript">
 		$.fn.extend({//extend可以传入多个方法；
 			seColor:function(color){
